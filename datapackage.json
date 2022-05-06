@@ -1,0 +1,31 @@
+{
+  "name": "gdp-per-capita-by-regions",
+  "title": "Gross domestic product per capita using production method by regions",
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "output.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "region",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "date",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ]
+}
